@@ -31,7 +31,7 @@ const createBookDiv = (book) => {
 
 const showcollection = () => {
     const bookList = document.querySelector('#collection-list');
-    const collectionDiv = document.createElement('div');
+    const collectionDiv = document.createElement('div', 'hr');
     collection.forEach((book) => {
         collectionDiv.appendChild(createBookDiv(book));
     });
