@@ -1,44 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
 body {
-    background: gray;
-    box-sizing: border-box;
-    font-family: 'Pacifico', cursive;
-    min-height: 100vh;
+  background: gray;
+  box-sizing: border-box;
+  font-family: 'Merienda', cursive;
+  min-height: 100vh;
 }
 
 form {
-    flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
-    padding: 0 20px;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 input {
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 1.1rem;
-    outline: none;
-    border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
 }
 
-input[type=text] {
-    margin-bottom: 2%;
+input[type='text'] {
+  margin-bottom: 2%;
 }
 
-input[type=submit] {
-    align-self: flex-end;
-    padding: 1% 5%;
+input[type='submit'] {
+  align-self: flex-end;
+  padding: 1% 5%;
 }
 
 .delete,
-input[type=submit] {
-    box-shadow: 4px 4px #888;
-    font-weight: 550;
+input[type='submit'] {
+  box-shadow: 4px 4px #888;
+  font-weight: 550;
 }
 
 .delete:hover,
-input[type=submit]:hover {
-    background-color: bisque;
-    color: brown;
-    box-shadow: 2px 2px #b9b9b9;
+input[type='submit']:hover {
+  background-color: bisque;
+  color: brown;
+  box-shadow: 2px 2px #b9b9b9;
 }
