@@ -20,6 +20,9 @@ Awesome Library is a mini book library project tha allows a user to add books, a
 * HTML5
 * Javascript
 
+## Try it yourself
+[🔥  Click Me](https://samanatashi.github.io/Awesome_Books/)
+    
 ## Getting Started
 
 * Clone this repo <https://github.com/SamanAtashi/Awesome_Books.git>

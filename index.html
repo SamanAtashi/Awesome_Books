@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Awesome Books</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Books</title>
-</head>
-
-<body>
-    <h1>Awesome Books</h1>
-    <section id="collection-list">
-
-    </section>
-    <form action="post" id="book-form">
-        <input type="text" name="title" placeholder="Title" id="title"><br>
-        <input type="text" name="author" placeholder="Author" id="author"><br>
-        <input type="submit" value="Add">
-    </form>
-    <script src="script.js"></script>
-</body>
-
+	<body>
+		<main class="d-flex">
+			<h1>Awesome Books</h1>
+			<section id="collection-list"></section>
+			<form action="post" id="book-form" class="d-flex">
+				<input
+					type="text"
+					name="title"
+					placeholder="Title"
+					id="title"
+				/><br />
+				<input
+					type="text"
+					name="author"
+					placeholder="Author"
+					id="author"
+				/><br />
+				<input type="submit" value="Add" />
+			</form>
+		</main>
+		<script src="script.js"></script>
+	</body>
 </html>
