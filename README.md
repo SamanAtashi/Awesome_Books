@@ -36,6 +36,9 @@ Awesome Library is a mini book library project tha allows a user to add books, a
 
 * Open the index.html file in the directory to interact with the project
 
+## Try it yourself:
+    [Click Me](https://samanatashi.github.io/Awesome_Books/)
+
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
