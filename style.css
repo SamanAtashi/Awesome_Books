@@ -1,4 +1,5 @@
 @import url(‘https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap’);
+
 body {
   background: gray;
   font-family: ‘Merienda’, cursive;
@@ -10,10 +11,6 @@ body {
 h1,
 h3 {
   text-align: center;
-}
-
-d-flex {
-  display: inline;
 }
 
 nav {
