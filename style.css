@@ -1,137 +1,137 @@
 @import url(‘https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap’);
 body {
-    background: gray;
-    font-family: ‘Merienda’, cursive;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  background: gray;
+  font-family: ‘Merienda’, cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 d-flex {
-    display: inline;
+  display: inline;
 }
 
 nav {
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav div {
-    display: inline;
+  display: inline;
 }
 
 nav a {
-    color: black;
-    text-decoration: none;
-    margin: 1rem;
+  color: black;
+  text-decoration: none;
+  margin: 1rem;
 }
 
 form {
-    flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
-    padding: 0 20px;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 input {
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 1.1rem;
-    outline: none;
-    border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
 }
 
-input[type=‘text’] {
-    margin-bottom: 2%;
+input[type='‘text’'] {
+  margin-bottom: 2%;
 }
 
-input[type=‘submit’] {
-    align-self: flex-end;
-    padding: 1% 5%;
+input[type='‘submit’'] {
+  align-self: flex-end;
+  padding: 1% 5%;
 }
 
 .delete,
-input[type=‘submit’] {
-    box-shadow: 4px 4px #888;
-    font-weight: 550;
-    align-self: flex-end;
+input[type='‘submit’'] {
+  box-shadow: 4px 4px #888;
+  font-weight: 550;
+  align-self: flex-end;
 }
 
 .delete:hover {
-    background-color: bisque;
-    color: brown;
-    box-shadow: 2px 2px #B9B9B9;
+  background-color: bisque;
+  color: brown;
+  box-shadow: 2px 2px #b9b9b9;
 }
 
 html {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 main {
-    max-width: 40%;
-    margin: auto;
+  max-width: 40%;
+  margin: auto;
 }
 
 footer {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    display: flex;
-    justify-content: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
 }
 
 .contact {
-    display: none;
+  display: none;
 }
 
 #books-div {
-    flex-direction: column;
-    border: 3px solid rgba(7, 6, 6, 0.938);
-    min-height: 5vh;
+  flex-direction: column;
+  border: 3px solid rgba(7, 6, 6, 0.938);
+  min-height: 5vh;
 }
 
 .bookDiv {
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 3%;
-    font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+  font-weight: 500;
 }
 
 .bookDiv:nth-child(odd) {
-    background: rgb(230, 230, 230);
+  background: rgb(230, 230, 230);
 }
 
 .bookDiv:nth-child(even) {
-    background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 
 .display {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .inList,
 .inAddBook,
 .inContact {
-    display: none;
+  display: none;
 }
 
 .inListDel,
 .inAddBookDel,
 .inContactRev {
-    display: inherit;
-    flex-direction: column;
-    align-items: center;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
 }
 
 .inContactDel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
