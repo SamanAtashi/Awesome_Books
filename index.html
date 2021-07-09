@@ -10,19 +10,46 @@
 </head>
 
 <body>
-    <main>
+    <header>
+        <nav id="nav" class="d-flex">
+            <span id="logo">Awesome Books</span>
+            <ul id="nav-links" class="d-flex nav-fixed">
+                <li id="list" class="nav-btn">List</li>
+                <li id="add-new" class="nav-btn">Add New</li>
+                <li id="contact" class="nav-btn">Contact</li>
+            </ul>
+        </nav>
+        <p id="time"></p>
+    </header>
+    <main class=".d-flex">
         <h1>Awesome Books</h1>
         <section id="collection-list" class="display">
 
         </section>
+        <section id='book-form-sec' class="d-none">
+            <h3>Add A New Book</h3>
+            <form action="post" id="book-form">
+                <input type="text" name="title" placeholder="Title" id="title" required/>
+                <input type="text" name="author" placeholder="Author" id="author" required/>
+                <input type="submit" value="Add" />
+            </form>
+        </section>
 
-        <h3>Add A New Book</h3>
-        <form action="post" id="book-form" class="display">
-            <input type="text" name="title" placeholder="Title" id="title" required/>
-            <input type="text" name="author" placeholder="Author" id="author" required/>
-            <input type="submit" value="Add" />
-        </form>
+        <section id='contact-sec' class="d-none">
+            <h3>Contact info</h3>
+            <p>Do you have any questions or you just want to say "Hello"?</p>
+            <p>You can reach out to us:</p>
+            <ul>
+                <li>Collins: makungongcollins@gmail.com</li>
+                <li>Saman: milady00126@gmail.com</li>
+            </ul>
+        </section>
     </main>
+
+    <footer class="d-flex nav-fixed">
+        &copy; <small>Collins & Saman - 2021</small>
+    </footer>
+    <script src="luxon.js"></script>
     <script src="script.js"></script>
 </body>
 
